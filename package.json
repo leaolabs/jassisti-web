@@ -1,0 +1,29 @@
+{
+  "name": "jassisti-web",
+  "version": "1.0.0",
+  "description": "Backend da aplicacao de filmes Jassisti",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonardocintra/jassisti-web.git"
+  },
+  "keywords": [
+    "jasssisti"
+  ],
+  "author": "Leonardo Nascimento Cintra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leonardocintra/jassisti-web/issues"
+  },
+  "homepage": "https://github.com/leonardocintra/jassisti-web#readme",
+  "dependencies": {
+    "next": "^6.0.3",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  }
+}
