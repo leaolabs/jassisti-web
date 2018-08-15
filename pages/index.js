@@ -8,6 +8,10 @@ const Index = (props) => (
         <p className="lead">Salve os filmes que você ja assistiu! Todo apaixonado por filmes deve ter esse catalogo! É para a vida!</p>
         <a className="btn btn-lg btn-primary" href="../../components/navbar/" role="button">Comece agora &raquo;</a>
       </div>
+
+      <div className="alert alert-danger" role="alert">
+        Aplicação em desenvolvimento :)
+      </div>
     </main>
   </Layout>
 );
