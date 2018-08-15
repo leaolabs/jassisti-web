@@ -23,6 +23,9 @@ const Layout = (props) => (
           <li className="nav-item">
             <a className="nav-link" href="#">Filmes</a>
           </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#">Login</a>
+          </li>
         </ul>
       </div>
     </nav>
