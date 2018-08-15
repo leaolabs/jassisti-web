@@ -2,14 +2,13 @@ import Layout from '../components/Layout';
 
 const Index = (props) => (
   <Layout>
-    <header>
-      <div className="jumbotron jumbotron-fluid">
-        <div className="container">
-          <h1 className="display-4">Jassisti</h1>
-          <p className="lead">Marque os filmes que voce ja assistiu.</p>
-        </div>
+    <main role="main" className="container">
+      <div className="jumbotron">
+        <h1>Jassisti</h1>
+        <p className="lead">Salve os filmes que você ja assistiu! Todo apaixonado por filmes deve ter esse catalogo! É para a vida!</p>
+        <a className="btn btn-lg btn-primary" href="../../components/navbar/" role="button">Comece agora &raquo;</a>
       </div>
-    </header>
+    </main>
   </Layout>
 );
 
