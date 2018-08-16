@@ -27,7 +27,7 @@ const Index = ({ movies }) => (
         {movies.results.map((movie) => (
           <div className="col-3">
             <div className="card" styles={{ width: '18rem' }}>
-              <img className="card-img-top" src="http://image.tmdb.org/t/p/w185//aAPISLXtd7gQgaQFFjsS8IeCFHq.jpg" alt={movie.title} />
+              <img className="card-img-top" src={"http://image.tmdb.org/t/p/w185/" + movie.poster_path} alt={movie.title} />
               <div className="card-body">
                 <h5 className="card-title">{movie.title}</h5>
                 <p className="card-text">{movie.overview}</p>
