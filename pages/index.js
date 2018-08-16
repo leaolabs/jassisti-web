@@ -59,7 +59,7 @@ class Index extends React.Component {
           </div>
 
           <div className="row">
-            {movies.length && movies.map((movie) => (
+            {movies.map((movie) => (
               <div className="col-3">
                 <div className="card" styles={{ width: '18rem' }}>
                   <img className="card-img-top" src={"http://image.tmdb.org/t/p/w185/" + movie.poster_path} alt={movie.title} />
